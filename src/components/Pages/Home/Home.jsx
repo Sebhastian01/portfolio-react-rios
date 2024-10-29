@@ -1,7 +1,10 @@
 import React from 'react'
+import { Me } from '../../UI/Me.jsx'
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <Me></Me>
+    </>
   )
 }

@@ -1,0 +1,28 @@
+.me{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:brown;
+}
+
+.me p{
+    color: white;
+    font-size: 1.5rem;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.imgme{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imgme img{
+    width: 25rem;
+    height: 30rem;
+    border: 5px rgb(33, 173, 192) solid;
+}
