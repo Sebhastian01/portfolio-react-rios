@@ -1,5 +1,5 @@
 .me{
-    height: 48vw;
+    height: 40rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,16 +21,12 @@
     gap: 1rem;
 }
 
-.imgme img{
-    width: 15rem;
-    height: 20rem;
-}
-
 .paragraf{
     overflow-y: auto; /* Habilitar scroll solo en esta sección */
     max-height: calc(99vh - 200px); /* Limita la altura al espacio entre el header y el footer */
+    width: 100%;
   }
 
 .me h1{
-    color: rgb(25, 123, 180);
+    color: white;
 }

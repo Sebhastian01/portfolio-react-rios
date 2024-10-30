@@ -1,5 +1,4 @@
 import React from 'react';
-import yojoven from '../../../assets/yojoven.jpg';
 import { IntroMe } from '../../UI/IntroMe/IntroMe';
 import { MyKnowledge } from '../../UI/myKnowledge/MyKnowledge';
 import { MyStudies } from '../../UI/MyStudies/MyStudies';
