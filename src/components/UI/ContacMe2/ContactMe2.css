@@ -1,0 +1,53 @@
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1rem;
+    padding: 0rem 5rem 0rem 5rem;
+    width: 50%;
+    align-items: center;
+}
+
+.Data1{
+    display: flex;
+}
+
+.name{
+    padding: 1rem;
+    color: white;
+}
+
+.footer input{
+   padding: .5rem;
+   border-radius: .3rem;
+   background: transparent;
+   border-color:white ;
+}
+
+.Email{
+    padding: 1rem;
+    color: white;
+}
+
+.Message{
+    padding: 1rem;
+    width: 100%;
+    color: white;
+}
+
+.Message textarea{
+    background: transparent;
+    border-radius: .3rem;
+    padding: .5rem;
+    width: 100%;
+    border-color:white ;
+}
+
+.Message button{
+    width: 100%;
+    background-color: white;
+    border-radius: 2rem;
+    padding: .5rem;
+    color: white;
+}

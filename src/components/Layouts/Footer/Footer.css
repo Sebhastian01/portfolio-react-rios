@@ -1,0 +1,20 @@
+footer{
+    background-color: rgb(5, 75, 116);
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer2{
+    color: white;
+    font-size: 1rem;
+    padding: 0rem 5rem 0rem 5rem;
+    width: 50%;
+}
+
+.Data1{
+    display: flex;
+}

@@ -1,0 +1,36 @@
+.me{
+    height: 48vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/MePng.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45rem;
+    background-color: rgba(0, 0, 0, 1); /* color negro con 50% de opacidad */
+}
+
+.imgme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0rem 5rem 0rem 5rem;
+    gap: 1rem;
+}
+
+.imgme img{
+    width: 15rem;
+    height: 20rem;
+}
+
+.paragraf{
+    overflow-y: auto; /* Habilitar scroll solo en esta sección */
+    max-height: calc(99vh - 200px); /* Limita la altura al espacio entre el header y el footer */
+  }
+
+.me h1{
+    color: rgb(25, 123, 180);
+}
