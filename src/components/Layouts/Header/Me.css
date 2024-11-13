@@ -21,7 +21,7 @@
     gap: 1rem;
 }
 
-.paragraf{
+.me .paragraf{
     overflow-y: auto; /* Habilitar scroll solo en esta sección */
     max-height: calc(99vh - 200px); /* Limita la altura al espacio entre el header y el footer */
     width: 100%;

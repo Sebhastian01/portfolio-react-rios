@@ -5,12 +5,16 @@ import atlas from '../../../assets/atlas.png';
 import finance from '../../../assets/finance.png';
 import store from '../../../assets/store.png';
 import form from '../../../assets/form.png';
+import { Proyect } from '../../UI/Proyect/Proyect';
 import './Proyects.css'
 
 export const Proyects = () => {
   return (
     <>
     <section className="projects">
+      <Proyect imagen ="traveling" link ="https://traveling-amber.vercel.app/" parrafo="hola dajcbawejvbwekjavbsdj vvb sdkvbk svbskvj bksjdvbasdkjb" />
+    </section>
+    {/* <section className="projects">
         <h2>Proyects</h2>
 
     <section className="container-projects">
@@ -88,7 +92,7 @@ export const Proyects = () => {
     </section> 
     
     </section>
-    </section>
+    </section> */}
     </>
   )
 }
